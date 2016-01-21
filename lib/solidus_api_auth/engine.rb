@@ -2,7 +2,7 @@ module SpreeApiAuth
   class Engine < Rails::Engine
     require 'spree/core'
     isolate_namespace Spree
-    engine_name 'spree_api_auth'
+    engine_name 'solidus_api_auth'
 
     config.autoload_paths += %W(#{config.root}/lib)
 
