@@ -1,4 +1,4 @@
-Spree::Core::Engine.add_routes do
+Spree::Core::Engine.routes.draw do
   namespace :api, defaults: {format: 'json'} do
     resource :users do
       post :sign_up
